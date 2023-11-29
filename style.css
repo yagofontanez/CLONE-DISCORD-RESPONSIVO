@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@500&family=Roboto:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 459px;
+    background: url('images/discord1.png') center/cover;
+}
+
+.bgdheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    color: #FFFFFF;
+}
+
+.textoheader1 {
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 56px;
+    text-align: center;
+}
+
+.textoheader {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao1, .botao2 {
+    font-size: 16px;
+    font-family: 'Roboto';
+    padding: 10px;
+}
+
+.botao1 {
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 24px;
+    padding: 15px;
+}
+
+.botao2 {
+    color: white;
+    background-color: rgb(24, 24, 24);
+    border: none;
+    border-radius: 24px;
+    padding: 15px;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+
+}
+
+
+.primeiradobra {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.text {
+    display: column;
+}
+
+.text2 {
+    display: column;
+}
+
+.h1text {
+    font-family: 'Luckiest Guy', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: left;
+}
+
+.h1text1 {
+    font-family: 'Luckiest Guy', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+}
+
+.h3text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+}
+
+.h3text1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    line-height: 21px;
+    color: rgb(49, 49, 49);
+    margin-top: -30px;
+}
+
+.primeiradobra {
+    display: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.segundadobra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(193, 193, 193);
+}
+
+
+.quartadobra {
+    background-color: rgb(193, 193, 193);
+    padding: 10px;
+}
+
+
+.imageultima {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.final {
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.imgfinal {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .header {
+        height: auto;
+    }
+
+    .bgdheader {
+        padding: 16px;
+        text-align: center;
+    }
+
+    .textoheader1 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .textoheader {
+        font-size: 14px;
+    }
+
+    .botoes {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .botao1, .botao2 {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .primeiradobra,
+    .segundadobra,
+    .quartadobra {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .primeiradobra .text,
+    .segundadobra .text2,
+    .primeiradobra .text,
+    .quartadobra .ultimostextos {
+        margin-top: 16px; 
+    }
+
+    .img1,
+    .img2,
+    .img3,
+    .img4 {
+        width: 100%;
+        max-width: 400px; 
+        margin-bottom: 16px; 
+    }
+
+    .quartadobra {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .quartadobra .ultimostextos {
+        margin-top: 16px; 
+    }
+    
+
+}
